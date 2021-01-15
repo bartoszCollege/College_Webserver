@@ -1,0 +1,32 @@
+14/01/2021
+Logged into server with default root credentials. Created new non root user and disabled root SSH login. Can now securely log into server via SSH.
+
+14/01/2021
+Configured static IP address
+
+14/01/2021
+Created cronjob allowing system to automatically update at Monday 09:00 every week.
+
+14/01/2021
+Reconfigured firewall to allow following preconfigured services access: SSH, FTP, HTTP, HTTPS.
+
+14/01/2021
+Installed and configured FTP server so that only the non root user can login through FTP. User will be chrooted into their home directory.
+
+14/01/2021
+Attempted to setup RAID 1 array of 2 2.5 inch 320GB hard drives. Drives work individually however the Raspberry Pi 4 USB ports were unable to provide enough power to the drives to have them work as a RAID 1 array properly, resulting in frequent errors and often times the array would not even load.
+
+15/01/2021
+Replaced hard drive array with USB flash storage solution until a better solution can be found. Drive is formatted as EXT4.
+
+15/01/2021
+Installed HTOP and configured restricted shell using system user to automatically login to TTY1 and run the HTOP command.
+
+15/01/2021
+Installed and configured Apache Web Server
+
+15/01/2021
+Installed and configured MariaDB
+
+15/01/2021
+Installed and configured PHP
