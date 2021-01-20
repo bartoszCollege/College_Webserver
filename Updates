@@ -1,4 +1,13 @@
 14/01/2021
+Constructed server case.
+
+14/01/2021
+Prepared ethernet cables for server.
+
+14/01/2021
+Wired server to monitor, network switch and power. Tested server to ensure it powers on correctly.
+
+14/01/2021
 Logged into server with default root credentials. Created new non root user and disabled root SSH login. Can now securely log into server via SSH.
 
 14/01/2021
